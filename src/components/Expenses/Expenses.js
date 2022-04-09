@@ -1,8 +1,8 @@
-import "./Expenses.css"
+import "./Expenses.css";
 import ExpenseItem from "./ExpenseItem";
-import Card from "./Card";
+import Card from "../UI/Card";
 
-function Expenses() {
+const Expenses =() =>{
   const expenses = [
     {
       id: "e1",
@@ -18,7 +18,7 @@ function Expenses() {
       date: new Date(2021, 2, 28),
     },
     {
-      id: "e4", 
+      id: "e4",
       title: "New Desk (Wooden)",
       amount: 450,
       date: new Date(2021, 5, 12),
